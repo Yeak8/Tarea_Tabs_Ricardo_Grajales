@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latest Projects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Our Works</h1>
+    <h2 class="title">Latest Projects</h2>
+    <nav>
+      <button class="tab active" data-tab="all">All Teams</button>
+      <button class="tab" data-tab="mobile">Mobile App</button>
+      <button class="tab" data-tab="web">Web App</button>
+      <button class="tab" data-tab="custom">Custom Soft</button>
+      <button class="tab" data-tab="uiux">UI/UX</button>
+    </nav>
+  </header>
+  <main>
+    <div class="tab-content" id="all" style="display: flex;">
+      <div class="row">
+        <div class="card large">
+          <img src="imagenes/port1y3.jpg" alt="Project 1">
+        </div>
+        <div class="card large">
+          <img src="imagenes/port2.png" alt="Project 2">
+        </div>
+      </div>
+      <div class="row">
+        <div class="card small">
+          <img src="imagenes/port1y3.jpg" alt="Project 3">
+        </div>
+        <div class="card small">
+          <img src="imagenes/port4.jpg" alt="Project 4">
+        </div>
+        <div class="card small">
+          <img src="imagenes/port5.jpg" alt="Project 5">
+        </div>
+      </div>
+    </div>
+    <div class="tab-content" id="mobile" style="display: none;">
+      <div class="row">
+        <div class="card small">
+          <img src="imagenes/port1y3.jpg" alt="Project 3">
+        </div>
+        <div class="card small">
+          <img src="imagenes/port4.jpg" alt="Project 4">
+        </div>
+        <div class="card small">
+          <img src="imagenes/port5.jpg" alt="Project 5">
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="web" style="display: none;">
+      <div class="row">
+        <div class="card large">
+          <img src="imagenes/port2.png" alt="Project 2">
+        </div>
+        <div class="card large">
+          <img src="imagenes/port1y3.jpg" alt="Project 1">
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="custom" style="display: none;">
+      <div class="row">
+        <div class="card large">
+          <img src="imagenes/port1y3.jpg" alt="Project 1">
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="uiux" style="display: none;">
+      <div class="row">
+        <div class="card small">
+          <img src="imagenes/port4.jpg" alt="Project 4">
+        </div>
+      </div>
+    </div>
+
+    <div class="view-container">
+      <button class="view">
+        <span>VIEW All SOFTWARE</span>
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
